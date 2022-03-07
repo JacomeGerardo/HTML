@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="shortcut icon" type="image/x-icon" href="Imagenes/pequeño.ico">
+    <title>Pastelería</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+<img src="Imagenes/Logo.png" alt="Logo Amarili's Cake" width="250px" height="250px"> 
+<h1>Bienvenido</h1>
+
+<h4>
+    Nos ubicamos en 1ra. Avenida 34-54 zona 14, Ciudad de Guatemala
+    <br>
+    Nuestro número de teléfono es: 31594762
+    <br>
+    Nuestros horarios son de lunes a viernes 8 a 16hrs; Sabado y Domingo 9 a 13hrs
+</h4>
+
+<p >A continuación tiene los sabores disponibles para su pan del pastel. Si usted así lo desea, puede elegir más de uno al momento de hacer su pedido:</p>
+<ol>
+    <li>Chocolate</li>
+    <li>Vainilla</li>
+    <li>Fresa</li>
+    <li>Melocotón</li>
+</ol>
+
+<table>
+    <tr>
+      <td><strong>Sabor</strong></td>
+      <td><strong>Precio</strong></td>
+    </tr>
+    
+    <tr>
+      <td>Vainilla</td>
+      <td>Q.100.00</td>
+    </tr>
+    
+    <tr>
+      <td>Chocolate</td>
+      <td>Q.105.00</td>
+    </tr>
+    
+    <tr>
+      <td>Fresa</td>
+      <td>Q.100.00</td>
+    </tr>
+
+    <tr>
+        <td>Melocotón</td>
+        <td>Q.110.00</td>
+    </tr>
+  
+</table>
+
+
+<p>A continuación tiene los adornos disponibles para su pastel. Si usted así lo desea, puede elegir más de uno al momento de hacer su pedido:</p>
+<ol>
+    <li>Chocolate blanco</li>
+    <li>Gusanitos</li>
+    <li>Chispitas</li>
+</ol>
+
+    <table>
+        <tr>
+        <td><strong>Sabor</strong></td>
+        <td><strong>Precio</strong></td>
+        </tr>
+        
+        <tr>
+        <td>Chocolate blanco</td>
+        <td>Q.10.00</td>
+        </tr>
+        
+        <tr>
+        <td>Gusanitos</td>
+        <td>Q.5.00</td>
+        </tr>
+        
+        <tr>
+        <td>Chispitas</td>
+        <td>Q.8.00</td>
+        </tr>
+    
+    </table>
+
+
+    
+
+
+<!--Aquí comienza el formulario-->    
+<form action="">
+    <label for="nombre">Nombre:</label>
+    <input type="text" required id="nombre" placeholder="Escribe tu nombre">
+
+    <label for="correo1">Email:</label>
+    <input type="email" id="correo1" placeholder="Escribe tu email">
+
+    <label for="telefono">Escribe tu teléfono</label>
+    <input type="number"  id="telefono" placeholder="Escribe tu teléfono">
+
+    <label for="textarea">Descripción</label>
+    <input type="textarea" maxlength="5" id="textarea" placeholder="Aquí puedes describir tu descripción del pastel"> 
+
+    <p>Seleccione los sabores que desee</p>
+    <input type="radio" name="fr" value="f"> Fresa
+    <input type="radio" name="vn" value="v"> Vainilla
+    <input type="radio" name="cho" value="ch"> Chocolate
+
+
+
+    <p>Seleccione su adorno</p>
+    <input type="radio" name="ch" value="c"> Chispitas de chocolate
+    <input type="radio" name="gus" value="g"> Gusanitos de colores
+    <input type="radio" name="c" id="ch"> chocolate blanco
+
+
+    <input type="button" value="Hacer pedido">
+ </form>
+<!--Aquí termina el formulario-->    
+
+ 
+
+</body>
+</html> 
